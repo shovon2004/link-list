@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-
 struct node
 {
     int info;
@@ -16,7 +15,6 @@ struct node* createNode()
     t=(struct node*) malloc (sizeof(struct node));
     return t;
 };
-
 
 int main()
 {
